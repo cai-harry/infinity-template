@@ -1,0 +1,9 @@
+name:
+description:
+inputs:
+implementation:
+  container:
+    image: eu.gcr.io/$google_project/$repo_name/$component_name:$latest_commit_hash
+    command:
+    - python
+    - src
